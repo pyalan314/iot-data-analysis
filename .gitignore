@@ -69,6 +69,9 @@ logs/
 # Model files
 *.model
 *.weights
+*.pth
+*.ckpt
+*.npz
 trained_models/
 
 # Temporary files
@@ -88,3 +91,28 @@ Thumbs.db
 *.zip
 *.tar.gz
 *.rar
+
+# Case directories - pattern-based rules
+# Generated data in any case directory
+case*/data/
+case */data/
+
+# Model files in any case directory
+case*/model/
+case */model/
+
+# Output files in any case directory
+case*/output/
+case */output/
+
+# Lightning logs in any case directory
+case*/lightning_logs/
+case */lightning_logs/
+
+# Virtual environments in any case directory
+case*/venv/
+case */venv/
+
+# PDF reports in any case directory
+case*/*.pdf
+case */*.pdf

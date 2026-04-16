@@ -1,0 +1,4 @@
+neuralforecast>=3.1.0
+matplotlib
+python-dotenv
+timesfm[torch] @ git+https://github.com/google-research/timesfm.git
