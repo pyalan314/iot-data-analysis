@@ -1,0 +1,45 @@
+{
+  "background": {
+    "scenario": "Office Building Energy Management",
+    "problem_statement": "The building management needs to identify unusual energy consumption patterns to optimize costs, detect equipment malfunctions, and ensure efficient operations.",
+    "business_context": "Energy costs represent a significant operational expense. Detecting anomalies early can prevent waste, identify security issues (e.g., equipment left on), and optimize HVAC schedules."
+  },
+  
+  "building_structure": {
+    "floors": 3,
+    "floor_details": [
+      {
+        "floor": 1,
+        "description": "Ground floor with standard office spaces"
+      },
+      {
+        "floor": 2,
+        "description": "Second floor with computer labs and workstations"
+      },
+      {
+        "floor": 3,
+        "description": "Third floor with meeting rooms and offices"
+      }
+    ],
+    "categories": [
+      {
+        "name": "air_con",
+        "display_name": "Air Conditioning",
+        "description": "HVAC system consumption including cooling and ventilation",
+        "typical_pattern": "High during office hours (9am-7pm), low during nights and weekends"
+      },
+      {
+        "name": "computer_appliance",
+        "display_name": "Computer Appliances",
+        "description": "Computers, servers, printers, and other electronic equipment",
+        "typical_pattern": "High during office hours, minimal during nights, potential after-hours usage"
+      },
+      {
+        "name": "lobby_corridor_lighting",
+        "display_name": "Lobby & Corridor Lighting",
+        "description": "Common area lighting systems",
+        "typical_pattern": "Moderate and consistent throughout the day, slightly higher during office hours"
+      }
+    ]
+  }
+  }
